@@ -1,0 +1,117 @@
+/* 
+    Document   : style
+    Created on : Nov 4, 2014, 10:18:45 PM
+    Author     : Kaviya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.chatBox{
+    border: 2opx solid #000;
+    width: 500px;
+    margin: 50px;
+    background-color: #E8E8E8;
+    border-radius: 12px;
+}
+
+.chatBox.user{
+/*    text-align: right;*/
+    padding: 50px;    
+}
+
+.user{
+    padding-top: 10px;
+    text-align: right;
+}
+
+.signUp{
+    text-align: left;
+/*    position: absolute;
+    top: 58px*/
+}
+
+#signIn{
+    color: blue;
+    text-decoration: none;
+    background: none;
+    border: none; 
+    font-weight:bolder 
+}
+
+#signOut{
+    color: blue;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-weight:bolder 
+    
+}
+
+#signIn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#signOut:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.errorU{
+    color:purple;
+    margin-right: 5px;
+}
+
+errorU{
+    color:purple;
+    margin-right: 5px;
+}
+
+input{
+    margin-right: 5px;
+}
+
+.main{
+    background-color: #fff;
+    height: 300px;
+    padding: 5px;
+    overflow: auto;
+}
+.messegeBox{
+    padding: 7px 5px 5px 5px;
+    color: #BDBFBE;
+   
+}
+#newMessageContent{
+    font: 14px arial ,sans-serif;
+    height: 35px;
+    width: 400px;
+}
+
+#newMessageSend{
+    height: 36px;
+    width: 80px;
+}
+
+.left{
+    float: left;
+    width: 410px;
+}
+
+.right{
+    float: right;
+}
+
+#messsageBoxSignIn{
+    padding: 8px;
+    width: 100%;
+}
+
+#submit{
+    float: right;
+    padding-top: 8px;
+}
